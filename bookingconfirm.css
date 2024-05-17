@@ -1,0 +1,89 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: blue;
+    --text-color: #020102;
+    --bg-color: #fff;
+    --gradient: linear-gradient(blue, #020102);
+}
+/* Fichier CSS complet avec les styles pour le tableau */
+
+/* Utilisation de la police Poppins */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+/* Style pour le jumbotron */
+.jumbotron {
+    margin-top: 20px;
+    background-color: rgb(220, 220, 220) !important;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Style pour le conteneur principal */
+.container1 {
+    background-color: rgb(220, 220, 220);
+    width: 60%; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* Style pour le tableau */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: separate; /* Utilisation de border-collapse pour les bordures séparées */
+    border-spacing: 10px; /* Espacement entre les cellules du tableau */
+    border: 2px solid black; /* Double bordure autour du tableau */
+}
+
+
+
+/* Style pour les en-têtes de tableau */
+th {
+    background-color: #f2f2f2;
+    color: #000;
+    border: 2px solid black; /* Double bordure pour les en-têtes */
+    padding: 12px;
+    text-align: left;
+}
+
+/* Style pour les cellules de tableau */
+td {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid black; /* Double bordure pour les cellules */
+    padding: 12px;
+    text-align: center;
+}
+
+.loc{
+    margin-left: 500px;
+}

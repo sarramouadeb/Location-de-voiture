@@ -1,0 +1,155 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: blue;
+    --text-color: #020102;
+    --bg-color: #fff;
+    --gradient: linear-gradient(blue, #020102);
+}
+
+
+
+header{
+    background-image: url(assets/img/Background-home.png);
+}
+ /* Style de base pour le navbar */
+.nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:transparent;
+    color: var(--text-color);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.logo span {
+    color: var(--main-color); /* Couleur pour la partie 'Loc' du logo */
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color:var(--text-color);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-nav a:hover {
+    color: var(--main-color); /* Couleur au survol */
+}
+
+
+
+/* Style pour le menu mobile */
+.navbar.active {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent  !important;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 999;
+}
+
+.navbar.active li {
+    margin: 10px 0;
+}
+
+.navbar.active a {
+    color: var(--text-color);
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-color); /* Couleur de texte par défaut (noir) */
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: var(--text-color); /* Assurez-vous que la couleur au survol reste la même (noir) */
+}
+
+
+.navbar-toggle {
+    font-size: 24px;
+    color: var(--text-color);
+    margin-left: auto; /* Pousse l'icône du menu vers la droite */
+}
+
+
+@media (max-width: 1080px) {
+    .navbar-header {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: 2px;
+
+        
+    }
+
+    .navbar-toggle {
+        margin-left: auto;
+    
+    }
+}
+@media (max-width: 768px) {
+    .navbar-header {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        margin-right: 2px;
+    }
+
+    .navbar-toggle {
+        margin-left: auto;
+    }
+}

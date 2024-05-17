@@ -1,0 +1,152 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: blue;
+    --text-color: #020102;
+    --bg-color: #fff;
+    --gradient: linear-gradient(blue, #020102);
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    max-width: 600px;
+    margin: 10px auto;
+    
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: var(--main-color) !important;
+    font-size: 30px !important;
+    text-align: center;
+}
+
+
+.panel {
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    padding: 20px;
+    width:600px;
+    margin-left: 460px;
+}
+
+
+.panel-body {
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.input-group{
+    margin-left: 150px;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    margin-left: 10px ;
+    font-size: 12px;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: rgb(12, 72, 176);
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-center a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+/* Styles spécifiques pour la classe .log */
+
+
+.log label {
+    font-weight: bold; /* Police en gras pour les labels */
+}
+
+.log input[type="text"],
+.log input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.log button {
+    width: 100%;
+    
+    background-color:var(--main-color); /* Couleur du bouton */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.log button:hover {
+    background-color: var(--main-color); /* Couleur au survol du bouton */
+}
+
+.log .create-account {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.log .create-account a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.log .create-account a:hover {
+    text-decoration: none;
+}
+
+h5{
+    text-align: center;
+    
+}

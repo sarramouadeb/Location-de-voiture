@@ -1,0 +1,97 @@
+/* Début du CSS pour la page mybookings.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse; /* Bordure entre les cellules du tableau */
+}
+
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #00050a;
+    border-bottom: 1px solid #00050a; /* Bordure en haut et en bas de chaque cellule */
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #01070d;
+    background-color: #01070e;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.site-footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+/* Fin du CSS pour la page mybookings.css */
+/* Styles spécifiques pour le tableau */
+/* Styles spécifiques pour le tableau */
+
+.table.table-striped {
+    border-collapse: separate;
+    border-spacing: 0; /* Espacement entre les cellules du tableau */
+    width: 100%;
+}
+
+.table.table-striped th,
+.table.table-striped td {
+    padding: 0.75rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid #0a0a0a; /* Bordure à gauche de chaque cellule */
+    border-right: 1px solid #0c0c0c; /* Bordure à droite de chaque cellule */
+}
+
+.table.table-striped thead th {
+    background-color:#f8f9fa;
+    border-bottom: 2px solid #010a13;
+}
+
+.table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+h2{
+    color: blue !important;
+}
+
+p{
+    color: #a040a0;
+}
